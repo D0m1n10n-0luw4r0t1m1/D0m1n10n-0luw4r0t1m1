@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dboyssite:
+    image: dboyssite
+    build:
+      context: .
+      dockerfile: ./Dockerfile
